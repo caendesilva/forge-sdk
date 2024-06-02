@@ -2,8 +2,8 @@
 
 namespace Laravel\Forge\Facades;
 
-use Laravel\Forge\ForgeManager;
 use Illuminate\Support\Facades\Facade;
+use Laravel\Forge\ForgeManager;
 
 /**
  * @mixin \Laravel\Forge\Forge

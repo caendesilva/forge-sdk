@@ -2,8 +2,8 @@
 
 namespace Laravel\Forge;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Support\ServiceProvider;
 
 class ForgeServiceProvider extends ServiceProvider
 {

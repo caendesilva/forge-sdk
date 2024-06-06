@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Facade;
 use Laravel\Forge\ForgeManager;
 
 /**
- * @mixin \Laravel\Forge\Forge
+ * @see \Laravel\Forge\Forge
  */
 class Forge extends Facade
 {

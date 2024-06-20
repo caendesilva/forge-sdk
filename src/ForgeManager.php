@@ -35,7 +35,7 @@ class ForgeManager
      * @param  array  $parameters
      * @return mixed
      */
-    public function __call(string $method, array $parameters): mixed
+    public function __call(string $method, array $parameters)
     {
         return $this->forwardCallTo($this->forge, $method, $parameters);
     }

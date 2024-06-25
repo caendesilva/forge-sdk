@@ -23,7 +23,7 @@ class ForgeManager
      * Create a new Forge manager instance.
      *
      * @param  string  $token
-     * @param \GuzzleHttp\Client|null  $guzzle
+     * @param  \GuzzleHttp\Client|null  $guzzle
      */
     public function __construct($token, HttpClient $guzzle = null)
     {

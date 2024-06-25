@@ -2,6 +2,7 @@
 
 namespace Laravel\Forge;
 
+use GuzzleHttp\Client as HttpClient;
 use Illuminate\Support\Traits\ForwardsCalls;
 
 /**
@@ -22,10 +23,11 @@ class ForgeManager
      * Create a new Forge manager instance.
      *
      * @param  string  $token
+     * @param \GuzzleHttp\Client|null  $guzzle
      */
-    public function __construct($token)
+    public function __construct($token, HttpClient $guzzle = null)
     {
-        $this->forge = new Forge($token);
+        $this->forge = new Forge($token, $guzzle);
     }
 
     /**

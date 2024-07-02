@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.14.3...3.x)
+## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.15.0...3.x)
+
+## [v3.15.0](https://github.com/laravel/forge-sdk/compare/v3.14.3...v3.15.0) - 2024-06-27
+
+* [3.x] Add Forge facade for Laravel integration by [@stevebauman](https://github.com/stevebauman) in https://github.com/laravel/forge-sdk/pull/177
 
 ## [v3.14.3](https://github.com/laravel/forge-sdk/compare/v3.14.2...v3.14.3) - 2024-01-23
 

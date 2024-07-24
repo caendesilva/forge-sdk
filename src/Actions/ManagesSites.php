@@ -220,7 +220,7 @@ trait ManagesSites
      *
      * @param  int  $serverId
      * @param  int  $siteId
-     * @return string
+     * @return array
      */
     public function createSiteDeployKey($serverId, $siteId)
     {

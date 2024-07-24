@@ -262,7 +262,7 @@ class Site extends Resource
     /**
      * Create a new deploy key on the site.
      *
-     * @return string
+     * @return array
      */
     public function createDeployKey()
     {

@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.16.0...3.x)
+## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.17.0...3.x)
+
+## [v3.17.0](https://github.com/laravel/forge-sdk/compare/v3.16.0...v3.17.0) - 2024-09-03
+
+* [3.x] Add directory property to Daemon resource by [@princejohnsantillan](https://github.com/princejohnsantillan) in https://github.com/laravel/forge-sdk/pull/182
 
 ## [v3.16.0](https://github.com/laravel/forge-sdk/compare/v3.15.0...v3.16.0) - 2024-07-25
 

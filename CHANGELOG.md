@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.17.0...3.x)
+## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.18.0...3.x)
+
+## [v3.18.0](https://github.com/laravel/forge-sdk/compare/v3.17.0...v3.18.0) - 2024-09-30
+
+### What's Changed
+
+* Set a User-Agent string by [@jbrooksuk](https://github.com/jbrooksuk) in https://github.com/laravel/forge-sdk/pull/184
 
 ## [v3.17.0](https://github.com/laravel/forge-sdk/compare/v3.16.0...v3.17.0) - 2024-09-03
 

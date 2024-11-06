@@ -5,6 +5,7 @@ namespace Tests;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use Laravel\Forge\Exceptions\FailedActionException;
+use Laravel\Forge\Exceptions\ForbiddenException;
 use Laravel\Forge\Exceptions\NotFoundException;
 use Laravel\Forge\Exceptions\RateLimitExceededException;
 use Laravel\Forge\Exceptions\TimeoutException;
@@ -71,6 +72,19 @@ class ForgeSDKTest extends TestCase
 
         $http->shouldReceive('request')->once()->with('GET', 'recipes', [])->andReturn(
             new Response(404)
+        );
+
+        $forge->recipes();
+    }
+
+    public function test_handling_forbidden_requests(): void
+    {
+        $this->expectException(ForbiddenException::class);
+
+        $forge = new Forge('123', $http = Mockery::mock(Client::class));
+
+        $http->shouldReceive('request')->once()->with('GET', 'recipes', [])->andReturn(
+            new Response(403)
         );
 
         $forge->recipes();
